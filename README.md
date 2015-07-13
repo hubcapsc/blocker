@@ -72,7 +72,7 @@ Fail threshold. If we see N fails in M minutes, BLOCK 'EM DANNO!
 
 This file enables blocker to be controlled with systemctl.
 
-# cat /usr/lib/systemd/system/blocker.service
+$ cat /usr/lib/systemd/system/blocker.service
 [Unit]
 Description=block brute force attacks
 

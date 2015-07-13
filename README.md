@@ -112,7 +112,7 @@ to /etc/logrotate.conf to keep things flowing:
 ```
 sharedscripts
 postrotate
-	systemctl restart blocker.service
+	/bin/systemctl restart blocker.service
 endscript
 ```
 

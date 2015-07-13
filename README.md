@@ -109,10 +109,12 @@ old log file.
 If logrotate is your logfile manager, you could add something like this
 to /etc/logrotate.conf to keep things flowing:
 
+```
 sharedscripts
 postrotate
 	systemctl restart blocker.service
 endscript
+```
 
 -------------------------------------------------------------------------------
 

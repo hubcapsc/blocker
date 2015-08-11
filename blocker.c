@@ -124,10 +124,9 @@ int main(int argc, char *argv[]) {
 	 * is restarted. If we processed the whole file on
 	 * startup we'd think all the failures we saw just
 	 * happened, possibly blocking hosts we don't want to
-	 * block. This program's weltanschauung is "real time",
-	 * looking into the past is probably not appropriate...
+	 * block.
 	 *
-	 * Perhaps there should be a flag that lets us process
+	 * Maybe there should be a flag that lets us process
 	 * the whole file on startup... ?
 	 */
 	fseek(fp, 0, SEEK_END);
